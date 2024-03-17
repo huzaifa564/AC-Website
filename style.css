@@ -444,6 +444,11 @@ html{
         width: 619px;
     }
 }
+@media screen and (max-width: 800px){
+    .quote-img img{
+        height: 100%;
+    }
+}
 /* -----------Client Section------------ */
 .client{
     position: relative;
