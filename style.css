@@ -20,6 +20,11 @@ html{
 .navbar{
     background-color: white;
 }
+@media screen and (max-width: 800px){
+    .logo img{
+        margin-left: -29px;
+    }
+}
 #header ul li a{
     color: black;
     font-weight: bold;
@@ -447,8 +452,8 @@ html{
 @media screen and (max-width: 800px){
     .quote-img img{
         height: 100%;
-        border-radius: 11px;
-        padding-bottom: 10px;
+        border-radius: 10px;
+        padding-bottom: 20px;
     }
 }
 /* -----------Client Section------------ */
@@ -561,6 +566,12 @@ html{
     color: rgb(228, 206, 111);
     margin-top: 23px;
     border-radius: 2px;
+}
+@media screen and (max-width: 800px){
+    .part h1{
+        font-weight: 1000;
+        font-size: 36px;
+    }
 }
 .part-bt button:hover{
     background-color: rgb(228, 206, 111);
