@@ -447,6 +447,8 @@ html{
 @media screen and (max-width: 800px){
     .quote-img img{
         height: 100%;
+        border-radius: 11px;
+        padding-bottom: 10px;
     }
 }
 /* -----------Client Section------------ */
